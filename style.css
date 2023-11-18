@@ -1,0 +1,370 @@
+/* For WebKit Browsers (Chrome, Safari) */
+/* For Firefox */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #8c8c8c;
+  font-family: Source Sans Pro, sans-serif;
+  overflow: hidden;
+}
+
+button {
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+input {
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+select {
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.bot-response {
+  font-size: 17px;
+  line-height: 24px;
+  border-radius: 20px;
+  word-wrap: break-word;
+  padding: 15px 17px;
+  background: #385ab0;
+  color: white;
+  margin-top: 10px;
+}
+
+.text[text-first] {
+  border-bottom-left-radius: 5px;
+  margin-top: 0;
+}
+
+.text[text-middle] {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.text[text-last] {
+  border-top-left-radius: 5px;
+}
+
+.massage[data-user=true] {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.msgCaption {
+  padding: 0 25px 10px !important;
+  padding-top: 10px !important;
+}
+
+.user-response {
+  background: rgb(155, 166, 179);
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  line-height: 24px;
+  border-radius: 20px;
+  max-width: 250px;
+  padding: 15px 17px;
+  border-bottom-right-radius: 5px;
+  word-break: break-all;
+  white-space: normal;
+  margin: 15px 0;
+}
+
+.massage {
+  padding: 0 25px 0px;
+}
+.massage img {
+  width: 100%;
+  height: 217px;
+  border-radius: 10px;
+  margin-bottom: 6px;
+}
+
+.captionBot {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px;
+  width: 117px;
+  font-size: 14px;
+  color: white;
+}
+.captionBot img {
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.by {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  border-top: 1px solid rgb(238, 238, 238);
+}
+.by a {
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 3px;
+}
+.by span {
+  color: rgb(155, 166, 178);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.InputMSG {
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 50px;
+  padding-left: 15px;
+  font-size: 1.1rem;
+}
+.InputMSG::-moz-placeholder {
+  font-size: 1.1rem;
+  color: rgb(155, 166, 178);
+}
+.InputMSG::placeholder {
+  font-size: 1.1rem;
+  color: rgb(155, 166, 178);
+}
+.InputMSG:valid ~ .send-icon svg path {
+  fill: #0066ff;
+}
+
+.BoxSentMSG {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+
+.send-icon {
+  display: flex;
+  background-color: white;
+  width: 26px;
+  height: 26px;
+  margin: 0 13px;
+  cursor: pointer;
+}
+
+.ContentChat {
+  background: rgb(234, 238, 243);
+  width: 100%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+  overflow-y: scroll !important;
+  scrollbar-width: thin;
+}
+.ContentChat::before {
+  content: "";
+  display: block;
+  height: 20px;
+  width: 100%;
+}
+.ContentChat::after {
+  content: "";
+  display: block;
+  height: 20px;
+  width: 100%;
+}
+.ContentChat::-webkit-scrollbar {
+  width: 10px;
+}
+.ContentChat::-webkit-scrollbar-thumb {
+  background-color: #385ab0;
+  border-radius: 5px;
+}
+.ContentChat::-moz-scrollbar-thumb {
+  background-color: #385ab0;
+  border-radius: 5px;
+}
+
+.AvatarBot {
+  display: grid;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.AvatarBot:after {
+  content: "";
+  display: block;
+  width: 9px;
+  height: 9px;
+  border-radius: 100%;
+  border: 1px solid rgb(255, 255, 255);
+  background: rgb(105, 222, 64);
+  position: absolute;
+  bottom: 1px;
+  right: 1px;
+}
+.AvatarBot img {
+  width: 50px;
+  height: 50px;
+}
+
+.InfoBot {
+  margin-left: 17px;
+}
+
+.status {
+  color: rgb(155, 166, 179);
+}
+
+.TitleBot {
+  font-size: 24px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  width: 100%;
+  padding-left: 13px;
+  box-shadow: 0 9.5px 12.7px 0 rgba(0, 0, 0, 0.05);
+}
+
+.container {
+  width: 400px;
+  height: 570px;
+  background-color: white;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  margin: 50px auto;
+}
+
+.none {
+  display: none;
+}
+
+.language-dropdown {
+  margin-top: 20px;
+  padding: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.language-dropdown label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+.language-dropdown select {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-size: 16px;
+  outline: none;
+}
+.language-dropdown select:hover {
+  border-color: #003366;
+}
+.language-dropdown select:focus {
+  border-color: #003366;
+}
+
+#send1:hover {
+  filter: brightness(0) saturate(100%) invert(15%) sepia(54%) saturate(2515%) hue-rotate(190deg) brightness(98%) contrast(108%);
+  position: relative;
+  bottom: 10%;
+  transition: width 2s, height 4s;
+}
+
+.message {
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  max-width: 80%;
+  margin-right: 2vh;
+  text-align: right;
+  margin-left: auto;
+  display: block;
+  animation: fadeIn 0.5s ease forwards;
+}
+
+.additional-message {
+  background-color: #385ab0;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  max-width: 80%;
+  margin-left: 2vh;
+  animation: fadeIn 0.5s ease forwards;
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+  }
+  body {
+    display: block;
+    height: calc(100vh - 170px);
+    overflow: auto;
+  }
+  .ContentChat {
+    height: 100%;
+    margin-top: 90px;
+    margin-bottom: 80px;
+    overflow: auto;
+  }
+  .top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+  }
+  .BoxSentMSG {
+    position: fixed;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    background-color: white;
+  }
+  .by {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+  }
+}
+.send-icon {
+  transition: transform 0.2s ease-in-out;
+}
+.send-icon:hover {
+  transform: scale(1.1);
+}
+.send-icon :active {
+  transform: rotate(360deg);
+}/*# sourceMappingURL=style.css.map */
