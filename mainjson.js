@@ -19,11 +19,11 @@ async function getDataFromJSONFile() {
 
 async function sendMessageToGPT(message) {
   try {
-    const localData = await getDataFromJSONFile(); // Fetch data from local JSON file
+    const localData = await getDataFromJSONFile(); 
     if (localData) {
-      // Use localData for processing or manipulation as needed
+     
       console.log(localData);
-      return "Success"; // Example response
+      return "Success"; 
     } else {
       return "Error fetching local data";
     }
@@ -36,10 +36,10 @@ async function sendMessageToGPT(message) {
 async function typeBotResponse(message) {
   const botResponseElement = document.createElement("div");
   botResponseElement.classList.add("bot-response");
-  botResponseElement.textContent = message; // Display bot message directly
+  botResponseElement.textContent = message; 
 
   chatBox.appendChild(botResponseElement);
-  chatBox.scrollTop = chatBox.scrollHeight; // Scroll to bottom after bot response
+  chatBox.scrollTop = chatBox.scrollHeight;
 }
 
 function addMessageToChat(message, isUser = false) {
@@ -59,17 +59,17 @@ function addMessageToChat(message, isUser = false) {
 async function sendMessage() {
   const message = inputField.value.trim();
   if (message !== "") {
-    addMessageToChat(message, true); // Display user message
+    addMessageToChat(message, true); 
 
     try {
       const botResponse = await sendMessageToGPT(message);
-      await typeBotResponse(botResponse); // Display bot response directly
+      await typeBotResponse(botResponse); 
 
       inputField.value = "";
-      chatBox.scrollTop = chatBox.scrollHeight; // Scroll to bottom after bot response
+      chatBox.scrollTop = chatBox.scrollHeight; 
     } catch (error) {
       console.error("Error:", error);
-      // Handle errors here
+     
     }
   }
 }
@@ -100,4 +100,4 @@ function changePlaceholder() {
   }
 }
 
-changePlaceholder(); // Call changePlaceholder initially
+changePlaceholder(); 
