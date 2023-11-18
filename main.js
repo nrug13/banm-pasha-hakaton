@@ -1,4 +1,4 @@
-// const languageSelect = document.getElementById("language-select");
+import axios from "https://cdn.skypack.dev/axios"; // const languageSelect = document.getElementById("language-select");
 // const inputField = document.querySelector(".InputMSG");
 // const chatBox = document.querySelector(".ContentChat");
 // const statusbot = document.querySelector(".status_bot");
@@ -128,7 +128,7 @@
 const languageSelect = document.getElementById("language-select");
 const inputField = document.querySelector(".InputMSG");
 const chatBox = document.querySelector(".ContentChat");
-let statusbot = document.querySelector(".status").textContent;
+let statusbot = document.querySelector(".status");
 
 let lastRequestTime = 0;
 const MIN_REQUEST_DELAY = 2000;
@@ -174,29 +174,54 @@ async function sendMessageToGPT(message) {
 
   lastRequestTime = Date.now();
 
+  // try {
+  //   const response = await fetch(
+  //     "https://api.openai.com/v1/engines/davinci/completions",
+  //     {
+  //       method: "POST",
+  //       headers: {
+  //         "Content-Type": "application/json",
+  //         Authorization:
+  //           "Bearer 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", // Replace with your actual API key
+  //       },
+  //       body: JSON.stringify({
+  //         prompt: message,
+  //         max_tokens: 50,
+  //         temperature: 0.7,
+  //       }),
+  //     }
+  //   );
+
+  //   const data = await response.json();
+  //   console.log(data);
+  //   return data.choices[0].text.trim();
+
+  //   //choices[0].text.trim()
+  // } catch (error) {
+  //   console.error("Error fetching response:", error);
+  //   return "Sorry, there was an issue processing your request.";
+  // }
+
   try {
-    const response = await fetch(
+    const response = await axios.post(
       "https://api.openai.com/v1/engines/davinci/completions",
       {
-        method: "POST",
+        prompt: message,
+        max_tokens: 50,
+        temperature: 0.7,
+      },
+      {
         headers: {
           "Content-Type": "application/json",
           Authorization:
-            "Bearer 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", // Replace with your actual API key
+            "Bearer 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", // Replace with your actual API key
         },
-        body: JSON.stringify({
-          prompt: message,
-          max_tokens: 50,
-          temperature: 0.7,
-        }),
       }
     );
 
-    const data = await response.json();
+    const data = response.data;
     console.log(data);
     return data.choices[0].text.trim();
-
-    //choices[0].text.trim()
   } catch (error) {
     console.error("Error fetching response:", error);
     return "Sorry, there was an issue processing your request.";

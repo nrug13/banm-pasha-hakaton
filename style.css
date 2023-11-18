@@ -285,6 +285,10 @@ select {
   transition: width 2s, height 4s;
 }
 
+.external-link {
+  display: none;
+}
+
 .message {
   background-color: #f5f5f5;
   color: #333;
@@ -370,39 +374,35 @@ select {
     border-radius: 40px;
     border-bottom: 30px solid black;
   }
+  .external-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #385ab0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+  }
+  .external-link:hover {
+    background-color: #4a6bcc;
+  }
+  .external-link span {
+    margin-right: 8px;
+  }
+  .arrow {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 8px solid #fff;
+    animation: arrowAnimate 1s infinite;
+  }
 }
-.external-link {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 9999;
-  text-decoration: none;
-  color: #fff;
-  padding: 10px 20px;
-  background-color: #385ab0;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  transition: all 0.3s ease;
-}
-
-.external-link:hover {
-  background-color: #4a6bcc;
-}
-
-.external-link span {
-  margin-right: 8px;
-}
-
-.arrow {
-  width: 0;
-  height: 0;
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-left: 8px solid #fff;
-  animation: arrowAnimate 1s infinite;
-}
-
 @keyframes arrowAnimate {
   0% {
     transform: translateX(0);
