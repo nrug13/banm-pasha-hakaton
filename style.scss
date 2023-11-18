@@ -15,8 +15,6 @@ $border-color_1: #003366;
 $response_font_size: 15px;
 $line_height: 24px;
 
-/* For WebKit Browsers (Chrome, Safari) */
-/* For Firefox */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -389,9 +387,7 @@ select {
     transform: rotate(360deg);
   }
 }
-// .notch {
-//   display: none;
-// }
+
 @media only screen and (min-width: 600px) {
   .container {
     width: 300px;

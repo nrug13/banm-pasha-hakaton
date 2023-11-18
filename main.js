@@ -128,7 +128,7 @@
 const languageSelect = document.getElementById("language-select");
 const inputField = document.querySelector(".InputMSG");
 const chatBox = document.querySelector(".ContentChat");
-const statusbot = document.querySelector(".status_bot");
+let statusbot = document.querySelector(".status").textContent;
 
 let lastRequestTime = 0;
 const MIN_REQUEST_DELAY = 2000;
