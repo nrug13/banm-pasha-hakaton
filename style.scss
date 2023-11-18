@@ -12,6 +12,8 @@ $background-color_2: #385ab0;
 $background-color_3: #fff;
 $background-color_4: #f5f5f5;
 $border-color_1: #003366;
+$response_font_size: 15px;
+$line_height: 24px;
 
 /* For WebKit Browsers (Chrome, Safari) */
 /* For Firefox */
@@ -36,19 +38,15 @@ body {
   font-family: $font-family_1;
   overflow: hidden;
 }
-button {
-  font-family: $font-family_2;
-}
-input {
-  font-family: $font-family_2;
-}
+button,
+input,
 select {
   font-family: $font-family_2;
 }
 
 .bot-response {
-  font-size: 17px;
-  line-height: 24px;
+  font-size: $response_font_size;
+  line-height: $line_height;
   border-radius: 20px;
   word-wrap: break-word;
   padding: 15px 17px;
@@ -79,8 +77,8 @@ select {
 .user-response {
   background: $color_5;
   color: $color_2;
-  font-size: 17px;
-  line-height: 24px;
+  font-size: $response_font_size;
+  line-height: $line_height;
   border-radius: 20px;
   max-width: 250px;
   padding: 15px 17px;

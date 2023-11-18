@@ -23,20 +23,14 @@ body {
   overflow: hidden;
 }
 
-button {
-  font-family: "Segoe UI", Arial, sans-serif;
-}
-
-input {
-  font-family: "Segoe UI", Arial, sans-serif;
-}
-
+button,
+input,
 select {
   font-family: "Segoe UI", Arial, sans-serif;
 }
 
 .bot-response {
-  font-size: 17px;
+  font-size: 15px;
   line-height: 24px;
   border-radius: 20px;
   word-wrap: break-word;
@@ -73,7 +67,7 @@ select {
 .user-response {
   background: rgb(155, 166, 179);
   color: rgb(255, 255, 255);
-  font-size: 17px;
+  font-size: 15px;
   line-height: 24px;
   border-radius: 20px;
   max-width: 250px;

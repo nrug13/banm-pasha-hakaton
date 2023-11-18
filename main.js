@@ -182,7 +182,7 @@ async function sendMessageToGPT(message) {
         headers: {
           "Content-Type": "application/json",
           Authorization:
-            "Bearer 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", // Replace with your actual API key
+            "Bearer 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", // Replace with your actual API key
         },
         body: JSON.stringify({
           prompt: message,
@@ -193,8 +193,8 @@ async function sendMessageToGPT(message) {
     );
 
     const data = await response.json();
-    console.log(data.error);
-    return data.error.message;
+    console.log(data);
+    return data.choices[0].text.trim();
 
     //choices[0].text.trim()
   } catch (error) {
