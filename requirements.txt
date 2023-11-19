@@ -1,0 +1,5 @@
+en-core-web-trf @ https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.7.3/en_core_web_trf-3.7.3-py3-none-any.whl
+Flask==3.0.0
+torch==2.1.1
+tqdm==4.66.1
+request
