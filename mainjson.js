@@ -1,11 +1,10 @@
 const languageSelect = document.getElementById("language-select");
 const inputField = document.querySelector(".InputMSG");
 const chatBox = document.querySelector(".ContentChat");
-const statusbot = document.querySelector(".status_bot");
+const statusbot = document.querySelector(".status");
 
 let lastRequestTime = 0;
 const MIN_REQUEST_DELAY = 2000;
-
 async function getDataFromJSONFile() {
   try {
     const response = await fetch("datas.json"); // Replace with your file path
@@ -22,7 +21,7 @@ async function sendMessageToGPT(message) {
     const localData = await getDataFromJSONFile();
     if (localData) {
       console.log(localData);
-      return "Success";
+      return message;
     } else {
       return "Error fetching local data";
     }
