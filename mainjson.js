@@ -19,11 +19,10 @@ async function getDataFromJSONFile() {
 
 async function sendMessageToGPT(message) {
   try {
-    const localData = await getDataFromJSONFile(); 
+    const localData = await getDataFromJSONFile();
     if (localData) {
-     
       console.log(localData);
-      return "Success"; 
+      return "Success";
     } else {
       return "Error fetching local data";
     }
@@ -36,7 +35,7 @@ async function sendMessageToGPT(message) {
 async function typeBotResponse(message) {
   const botResponseElement = document.createElement("div");
   botResponseElement.classList.add("bot-response");
-  botResponseElement.textContent = message; 
+  botResponseElement.textContent = message;
 
   chatBox.appendChild(botResponseElement);
   chatBox.scrollTop = chatBox.scrollHeight;
@@ -59,17 +58,16 @@ function addMessageToChat(message, isUser = false) {
 async function sendMessage() {
   const message = inputField.value.trim();
   if (message !== "") {
-    addMessageToChat(message, true); 
+    addMessageToChat(message, true);
 
     try {
       const botResponse = await sendMessageToGPT(message);
-      await typeBotResponse(botResponse); 
+      await typeBotResponse(botResponse);
 
       inputField.value = "";
-      chatBox.scrollTop = chatBox.scrollHeight; 
+      chatBox.scrollTop = chatBox.scrollHeight;
     } catch (error) {
       console.error("Error:", error);
-     
     }
   }
 }
@@ -100,4 +98,4 @@ function changePlaceholder() {
   }
 }
 
-changePlaceholder(); 
+changePlaceholder();

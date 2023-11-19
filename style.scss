@@ -14,7 +14,10 @@ $background-color_4: #f5f5f5;
 $border-color_1: #003366;
 $response_font_size: 15px;
 $line_height: 24px;
-
+$border-radius: 20px;
+$response_padding: 15px 17px;
+$response_margin: 15px;
+$word-wrap-response: keep-all;
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -25,14 +28,13 @@ $line_height: 24px;
     transform: translateY(0);
   }
 }
-/*# sourceMappingURL=style.css.map */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 body {
-  background: #8c8c8c;
+  background: $color_5;
   font-family: $font-family_1;
   overflow: hidden;
 }
@@ -41,30 +43,46 @@ input,
 select {
   font-family: $font-family_2;
 }
-
-.bot-response {
+@mixin response {
   font-size: $response_font_size;
   line-height: $line_height;
-  border-radius: 20px;
-  word-wrap: break-word;
-  padding: 15px 17px;
-  background: #385ab0;
-  color: $color_7;
+  border-radius: $border-radius;
+  padding: $response_padding;
+  margin: $response_margin;
+  word-break: $word-wrap-response;
+}
+.bot-response,
+.user-response {
+  @include response();
+}
+.bot-response {
+  background: $background-color_2;
+  color: $color_2;
+}
+.user-response {
+  background: $color_5;
+  color: $color_2;
+  max-width: 250px;
+  border-bottom-right-radius: 5px;
+  white-space: normal;
+}
+.text {
+  &[text-first] {
+    border-bottom-left-radius: 5px;
+    margin-top: 0;
+  }
 
-  margin-top: 10px;
+  &[text-middle] {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+
+  &[text-last] {
+    border-top-left-radius: 5px;
+  }
 }
-.text[text-first] {
-  border-bottom-left-radius: 5px;
-  margin-top: 0;
-}
-.text[text-middle] {
-  border-bottom-left-radius: 5px;
-  border-top-left-radius: 5px;
-}
-.text[text-last] {
-  border-top-left-radius: 5px;
-}
-.massage[data-user="true"] {
+
+.message[data-user="true"] {
   display: flex;
   justify-content: flex-end;
 }
@@ -72,20 +90,8 @@ select {
   padding: 0 25px 10px !important;
   padding-top: 10px !important;
 }
-.user-response {
-  background: $color_5;
-  color: $color_2;
-  font-size: $response_font_size;
-  line-height: $line_height;
-  border-radius: 20px;
-  max-width: 250px;
-  padding: 15px 17px;
-  border-bottom-right-radius: 5px;
-  word-break: break-all;
-  white-space: normal;
-  margin: 15px 0;
-}
-.massage {
+
+.message {
   padding: 0 25px 0px;
   img {
     width: 100%;
@@ -212,7 +218,7 @@ a {
     width: 9px;
     height: 9px;
     border-radius: 100%;
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid $background-color_1;
     background: rgb(105, 222, 64);
     position: absolute;
     bottom: 1px;
@@ -296,13 +302,13 @@ label {
 select {
   padding: 8px;
   border: none;
-  background-color: #fff;
+  background-color: $color_2;
   font-size: 16px;
   outline: none;
-  position: absolute; /* Add this */
-  top: 0; /* Add this */
-  left: 0; /* Add this */
-  z-index: 1; /* Add this */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 #send1 {
   &:hover {
@@ -332,7 +338,7 @@ select {
 }
 .additional-message {
   background-color: $background-color_2;
-  color: $color_7;
+  color: $color_2;
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 15px;
@@ -395,9 +401,9 @@ select {
   .container {
     width: 300px;
     box-sizing: content-box;
-    border: 10px solid black;
+    border: 10px solid $color_1;
     border-radius: 40px;
-    border-bottom: 30px solid black;
+    border-bottom: 30px solid $color_1;
   }
   .external-link {
     position: fixed;
@@ -405,9 +411,9 @@ select {
     right: 20px;
     z-index: 9999;
     text-decoration: none;
-    color: #fff;
+    color: $color_2;
     padding: 10px 20px;
-    background-color: #385ab0;
+    background-color: $background-color_2;
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -415,7 +421,7 @@ select {
   }
 
   .external-link:hover {
-    background-color: #4a6bcc;
+    background-color: $background-color_2;
   }
 
   .external-link span {
@@ -427,7 +433,7 @@ select {
     height: 0;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-left: 8px solid #fff;
+    border-left: 8px solid $color_2;
     animation: arrowAnimate 1s infinite;
   }
 }

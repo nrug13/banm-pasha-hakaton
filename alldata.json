@@ -1,0 +1,1822 @@
+[
+{
+  "dialog_id": "0x13579b2468",
+  "dialog": [
+    {
+      "id": 0,
+      "sender": "agent",
+      "text": "Hello! Welcome to our insurance services. How can I assist you today?"
+    },
+    {
+      "id": 1,
+      "sender": "customer",
+      "text": "I'm interested in purchasing car insurance. Can you provide details about the available coverage options?"
+    },
+    {
+      "id": 2,
+      "sender": "agent",
+      "text": "Of course! We offer various coverage options including liability, collision, comprehensive, personal injury protection, and uninsured/underinsured motorist coverage. What specific coverage are you considering?"
+    },
+    {
+      "id": 3,
+      "sender": "customer",
+      "text": "I'm considering comprehensive coverage for my vehicle."
+    },
+    {
+      "id": 4,
+      "sender": "agent",
+      "text": "Comprehensive coverage is an excellent choice! It protects against theft, vandalism, natural disasters, and more. To better assist you, could you provide details about your vehicle? Make, model, year, and any safety features it includes."
+    },
+    {
+      "id": 5,
+      "sender": "customer",
+      "text": "It's a {car_make} {car_model} from {car_year}, equipped with {safety_features}."
+    },
+    {
+      "id": 6,
+      "sender": "agent",
+      "text": "Thank you for sharing. Based on that, your estimated annual premium for comprehensive coverage is $X. Is this within your budget?"
+    },
+    {
+      "id": 7,
+      "sender": "customer",
+      "text": "Yes, that fits my budget."
+    },
+    {
+      "id": 8,
+      "sender": "agent",
+      "text": "Great! Could you specify the primary usage of your vehicle? Is it for personal use, business, or any other purpose?"
+    },
+    {
+      "id": 9,
+      "sender": "customer",
+      "text": "It will primarily be used for personal commuting."
+    },
+    {
+      "id": 10,
+      "sender": "agent",
+      "text": "Understood. Additionally, are there any specific add-ons or extra coverage options you'd like to include in your policy, such as roadside assistance, rental car coverage, or increased liability limits?"
+    },
+    {
+      "id": 11,
+      "sender": "customer",
+      "text": "I'd like to add {chosen_addons} to my policy."
+    },
+    {
+      "id": 12,
+      "sender": "agent",
+      "text": "Excellent choices! Your policy with the selected add-ons will offer comprehensive coverage. With these additions, your revised annual premium is $Y. Is this revised amount acceptable to you?"
+    },
+    {
+      "id": 13,
+      "sender": "customer",
+      "text": "Yes, that's acceptable."
+    },
+    {
+      "id": 14,
+      "sender": "agent",
+      "text": "Wonderful! {customer_name}, your detailed policy documentation will be sent to your email shortly, along with payment instructions. If you have further questions or need assistance, feel free to reach out. Thank you for choosing us for your car insurance. Drive safely!"
+    }
+  ],
+  "eval_score": 1,
+  "profile_match": 0
+}
+,
+{
+  "dialog_id": "0x2468a13579",
+  "dialog": [
+    {
+      "id": 0,
+      "sender": "agent",
+      "text": "Hello! Thank you for reaching out to our insurance services. How may I assist you today?"
+    },
+    {
+      "id": 1,
+      "sender": "customer",
+      "text": "I'm interested in purchasing car insurance. Could you provide details about the available coverage options?"
+    },
+    {
+      "id": 2,
+      "sender": "agent",
+      "text": "Certainly! We have various coverage options such as liability, collision, comprehensive, personal injury protection, and uninsured/underinsured motorist coverage. What specific coverage are you interested in?"
+    },
+    {
+      "id": 3,
+      "sender": "customer",
+      "text": "I'm considering comprehensive coverage for my vehicle."
+    },
+    {
+      "id": 4,
+      "sender": "agent",
+      "text": "Comprehensive coverage is a great choice! It protects against theft, vandalism, natural disasters, and more. To assist you better, could you provide details about your vehicle? Make, model, year, and any safety features it includes."
+    },
+    {
+      "id": 5,
+      "sender": "customer",
+      "text": "It's a {car_make} {car_model} from {car_year}, equipped with {safety_features}."
+    },
+    {
+      "id": 6,
+      "sender": "agent",
+      "text": "Thank you for sharing. Based on that, your estimated annual premium for comprehensive coverage is $X. Is this within your budget?"
+    },
+    {
+      "id": 7,
+      "sender": "customer",
+      "text": "Yes, that fits my budget."
+    },
+    {
+      "id": 8,
+      "sender": "agent",
+      "text": "Excellent! Could you specify the primary usage of your vehicle? Is it for personal use, business, or any other purpose?"
+    },
+    {
+      "id": 9,
+      "sender": "customer",
+      "text": "It will be primarily used for personal commuting."
+    },
+    {
+      "id": 10,
+      "sender": "agent",
+      "text": "Understood. Additionally, are there any specific add-ons or extra coverage options you'd like to include in your policy, such as roadside assistance, rental car coverage, or increased liability limits?"
+    },
+    {
+      "id": 11,
+      "sender": "customer",
+      "text": "I'd like to add {chosen_addons} to my policy."
+    },
+    {
+      "id": 12,
+      "sender": "agent",
+      "text": "Great choices! Your policy with the selected add-ons will offer comprehensive coverage. With these additions, your revised annual premium is $Y. Is this revised amount acceptable to you?"
+    },
+    {
+      "id": 13,
+      "sender": "customer",
+      "text": "Yes, that's acceptable."
+    },
+    {
+      "id": 14,
+      "sender": "agent",
+      "text": "Fantastic! {customer_name}, your detailed policy documentation will be sent to your email shortly, along with payment instructions. If you have further questions or need assistance, feel free to reach out. Thank you for choosing us for your car insurance. Drive safely!"
+    }
+  ],
+  "eval_score": 1,
+  "profile_match": 0
+},
+{
+  "dialog_id": "0x246813579a",
+  "dialog": [
+    {
+      "id": 0,
+      "sender": "agent",
+      "text": "Hello! Welcome to our insurance services. How can I assist you today?"
+    },
+    {
+      "id": 1,
+      "sender": "customer",
+      "text": "I'm interested in purchasing car insurance. Can you provide details about the available coverage options?"
+    },
+    {
+      "id": 2,
+      "sender": "agent",
+      "text": "Of course! We have various coverage options including liability, collision, comprehensive, personal injury protection, and uninsured/underinsured motorist coverage. What specific coverage are you considering?"
+    },
+    {
+      "id": 3,
+      "sender": "customer",
+      "text": "I'm considering comprehensive coverage for my vehicle."
+    },
+    {
+      "id": 4,
+      "sender": "agent",
+      "text": "Comprehensive coverage is a great choice! It protects against theft, vandalism, natural disasters, and more. To better assist you, could you provide details about your vehicle? Make, model, year, and any safety features it includes."
+    },
+    {
+      "id": 5,
+      "sender": "customer",
+      "text": "It's a {car_make} {car_model} from {car_year}, equipped with {safety_features}."
+    },
+    {
+      "id": 6,
+      "sender": "agent",
+      "text": "Thank you for sharing. Based on that, your estimated annual premium for comprehensive coverage is $X. Is this within your budget?"
+    },
+    {
+      "id": 7,
+      "sender": "customer",
+      "text": "Yes, that fits my budget."
+    },
+    {
+      "id": 8,
+      "sender": "agent",
+      "text": "Excellent! Could you specify the primary usage of your vehicle? Is it for personal use, business, or any other purpose?"
+    },
+    {
+      "id": 9,
+      "sender": "customer",
+      "text": "It will be mainly used for personal commuting."
+    },
+    {
+      "id": 10,
+      "sender": "agent",
+      "text": "Understood. Additionally, are there any specific add-ons or extra coverage options you'd like to include in your policy, such as roadside assistance, rental car coverage, or increased liability limits?"
+    },
+    {
+      "id": 11,
+      "sender": "customer",
+      "text": "I'd like to add {chosen_addons} to my policy."
+    },
+    {
+      "id": 12,
+      "sender": "agent",
+      "text": "Great choices! Your policy with the selected add-ons will offer comprehensive coverage. With these additions, your revised annual premium is $Y. Is this revised amount acceptable to you?"
+    },
+    {
+      "id": 13,
+      "sender": "customer",
+      "text": "Yes, that's acceptable."
+    },
+    {
+      "id": 14,
+      "sender": "agent",
+      "text": "Fantastic! {customer_name}, your detailed policy documentation will be sent to your email shortly, along with payment instructions. If you have further questions or need assistance, feel free to reach out. Thank you for choosing us for your car insurance. Drive safely!"
+    }
+  ],
+  "eval_score": 1,
+  "profile_match": 0
+},
+{
+  "dialog_id": "0xabcdef123",
+  "dialog": [
+    {
+      "id": 0,
+      "sender": "agent",
+      "text": "Hello! Thank you for contacting our insurance services. How may I assist you today?"
+    },
+    {
+      "id": 1,
+      "sender": "customer",
+      "text": "I'm interested in purchasing car insurance. Could you provide details about the available coverage options?"
+    },
+    {
+      "id": 2,
+      "sender": "agent",
+      "text": "Certainly! We have various coverage options such as liability, collision, comprehensive, personal injury protection, and uninsured/underinsured motorist coverage. What specific coverage are you interested in?"
+    },
+    {
+      "id": 3,
+      "sender": "customer",
+      "text": "I'm considering comprehensive coverage for my vehicle."
+    },
+    {
+      "id": 4,
+      "sender": "agent",
+      "text": "Comprehensive coverage is a great choice! It protects against theft, vandalism, natural disasters, and more. To assist you better, could you provide details about your vehicle? Make, model, year, and any safety features it includes."
+    },
+    {
+      "id": 5,
+      "sender": "customer",
+      "text": "It's a {car_make} {car_model} from {car_year}, equipped with {safety_features}."
+    },
+    {
+      "id": 6,
+      "sender": "agent",
+      "text": "Thank you for sharing. Based on that, your estimated annual premium for comprehensive coverage is $X. Is this within your budget?"
+    },
+    {
+      "id": 7,
+      "sender": "customer",
+      "text": "Yes, that fits my budget."
+    },
+    {
+      "id": 8,
+      "sender": "agent",
+      "text": "Excellent! Could you specify the primary usage of your vehicle? Is it for personal use, business, or any other purpose?"
+    },
+    {
+      "id": 9,
+      "sender": "customer",
+      "text": "It will primarily be used for personal commuting."
+    },
+    {
+      "id": 10,
+      "sender": "agent",
+      "text": "Understood. Additionally, are there any specific add-ons or extra coverage options you'd like to include in your policy, such as roadside assistance, rental car coverage, or increased liability limits?"
+    },
+    {
+      "id": 11,
+      "sender": "customer",
+      "text": "I'd like to add {chosen_addons} to my policy."
+    },
+    {
+      "id": 12,
+      "sender": "agent",
+      "text": "Great choices! Your policy with the selected add-ons will offer comprehensive coverage. With these additions, your revised annual premium is $Y. Is this revised amount acceptable to you?"
+    },
+    {
+      "id": 13,
+      "sender": "customer",
+      "text": "Yes, that's acceptable."
+    },
+    {
+      "id": 14,
+      "sender": "agent",
+      "text": "Fantastic! {customer_name}, your detailed policy documentation will be sent to your email shortly, along with payment instructions. If you have further questions or need assistance, feel free to reach out. Thank you for choosing us for your car insurance. Drive safely!"
+    }
+  ],
+  "eval_score": 1,
+  "profile_match": 0
+},
+
+{
+  "dialog_id": "0x987654321",
+  "dialog": [
+    {
+      "id": 0,
+      "sender": "agent",
+      "text": "Hello! Welcome to our insurance services. How can I assist you today?"
+    },
+    {
+      "id": 1,
+      "sender": "customer",
+      "text": "I'm interested in purchasing car insurance. Can you provide details about the available coverage options?"
+    },
+    {
+      "id": 2,
+      "sender": "agent",
+      "text": "Of course! We have various coverage options including liability, collision, comprehensive, personal injury protection, and uninsured/underinsured motorist coverage. What specific coverage are you considering?"
+    },
+    {
+      "id": 3,
+      "sender": "customer",
+      "text": "I'm considering comprehensive coverage for my vehicle."
+    },
+    {
+      "id": 4,
+      "sender": "agent",
+      "text": "Comprehensive coverage is a great choice! It protects against theft, vandalism, natural disasters, and more. To better assist you, could you provide details about your vehicle? Make, model, year, and any safety features it includes."
+    },
+    {
+      "id": 5,
+      "sender": "customer",
+      "text": "It's a {car_make} {car_model} from {car_year}, equipped with {safety_features}."
+    },
+    {
+      "id": 6,
+      "sender": "agent",
+      "text": "Thank you for sharing. Based on that, your estimated annual premium for comprehensive coverage is $X. Is this within your budget?"
+    },
+    {
+      "id": 7,
+      "sender": "customer",
+      "text": "Yes, that fits my budget."
+    },
+    {
+      "id": 8,
+      "sender": "agent",
+      "text": "Excellent! Could you specify the primary usage of your vehicle? Is it for personal use, business, or any other purpose?"
+    },
+    {
+      "id": 9,
+      "sender": "customer",
+      "text": "It will be mainly used for personal commuting."
+    },
+    {
+      "id": 10,
+      "sender": "agent",
+      "text": "Understood. Additionally, are there any specific add-ons or extra coverage options you'd like to include in your policy, such as roadside assistance, rental car coverage, or increased liability limits?"
+    },
+    {
+      "id": 11,
+      "sender": "customer",
+      "text": "I'd like to add {chosen_addons} to my policy."
+    },
+    {
+      "id": 12,
+      "sender": "agent",
+      "text": "Great choices! Your policy with the selected add-ons will offer comprehensive coverage. With these additions, your revised annual premium is $Y. Is this revised amount acceptable to you?"
+    },
+    {
+      "id": 13,
+      "sender": "customer",
+      "text": "Yes, that's acceptable."
+    },
+    {
+      "id": 14,
+      "sender": "agent",
+      "text": "Fantastic! {customer_name}, your detailed policy documentation will be sent to your email shortly, along with payment instructions. If you have further questions or need assistance, feel free to reach out. Thank you for choosing us for your car insurance. Drive safely!"
+    }
+  ],
+  "eval_score": 1,
+  "profile_match": 0
+}
+,
+{
+  "dialog_id": "0x246813579",
+  "dialog": [
+    {
+      "id": 0,
+      "sender": "agent",
+      "text": "Hello! Thank you for reaching out to our insurance services. How may I assist you today?"
+    },
+    {
+      "id": 1,
+      "sender": "customer",
+      "text": "I'm interested in purchasing car insurance. Could you provide details about the available coverage options?"
+    },
+    {
+      "id": 2,
+      "sender": "agent",
+      "text": "Certainly! We offer various coverage options including liability, collision, comprehensive, personal injury protection, and uninsured/underinsured motorist coverage. What specific coverage are you considering?"
+    },
+    {
+      "id": 3,
+      "sender": "customer",
+      "text": "I'm considering comprehensive coverage for my vehicle."
+    },
+    {
+      "id": 4,
+      "sender": "agent",
+      "text": "Great choice! Comprehensive coverage protects against theft, vandalism, natural disasters, and more. To assist you better, could you provide details about your vehicle? Make, model, year, and any safety features it includes."
+    },
+    {
+      "id": 5,
+      "sender": "customer",
+      "text": "It's a {car_make} {car_model} from {car_year}, equipped with {safety_features}."
+    },
+    {
+      "id": 6,
+      "sender": "agent",
+      "text": "Thank you for sharing. Based on that, your estimated annual premium for comprehensive coverage is $X. Is this within your budget?"
+    },
+    {
+      "id": 7,
+      "sender": "customer",
+      "text": "Yes, that fits my budget."
+    },
+    {
+      "id": 8,
+      "sender": "agent",
+      "text": "Excellent! Could you specify the primary usage of your vehicle? Is it for personal use, business, or any other purpose?"
+    },
+    {
+      "id": 9,
+      "sender": "customer",
+      "text": "It will mainly be used for personal commuting."
+    },
+    {
+      "id": 10,
+      "sender": "agent",
+      "text": "Understood. Additionally, are there any specific add-ons or extra coverage options you'd like to include in your policy, such as roadside assistance, rental car coverage, or increased liability limits?"
+    },
+    {
+      "id": 11,
+      "sender": "customer",
+      "text": "I'd like to add {chosen_addons} to my policy."
+    },
+    {
+      "id": 12,
+      "sender": "agent",
+      "text": "Great choices! Your policy with the selected add-ons will offer comprehensive coverage. With these additions, your revised annual premium is $Y. Is this revised amount acceptable to you?"
+    },
+    {
+      "id": 13,
+      "sender": "customer",
+      "text": "Yes, that's acceptable."
+    },
+    {
+      "id": 14,
+      "sender": "agent",
+      "text": "Wonderful! {customer_name}, your detailed policy documentation will be sent to your email shortly, along with payment instructions. If you have further questions or need assistance, feel free to reach out. Thank you for choosing us for your car insurance. Drive safely!"
+    }
+  ],
+  "eval_score": 1,
+  "profile_match": 0
+},
+{
+  "dialog_id": "0x24681357",
+  "dialog": [
+    {
+      "id": 0,
+      "sender": "agent",
+      "text": "Hello! Welcome to our insurance services. How can I assist you today?"
+    },
+    {
+      "id": 1,
+      "sender": "customer",
+      "text": "I'm interested in purchasing car insurance. Can you provide me with details about the available coverage options?"
+    },
+    {
+      "id": 2,
+      "sender": "agent",
+      "text": "Absolutely! We offer various coverage options including liability, collision, comprehensive, personal injury protection, and uninsured/underinsured motorist coverage. What specific coverage are you interested in?"
+    },
+    {
+      "id": 3,
+      "sender": "customer",
+      "text": "I'm considering comprehensive coverage for my vehicle."
+    },
+    {
+      "id": 4,
+      "sender": "agent",
+      "text": "Great choice! Comprehensive coverage protects against theft, vandalism, natural disasters, and more. To assist you better, could you provide details about your vehicle? Make, model, year, and any safety features it includes."
+    },
+    {
+      "id": 5,
+      "sender": "customer",
+      "text": "It's a {car_make} {car_model} from {car_year}, equipped with {safety_features}."
+    },
+    {
+      "id": 6,
+      "sender": "agent",
+      "text": "Thank you for sharing. Based on that, your estimated annual premium for comprehensive coverage is $X. Is this within your budget?"
+    },
+    {
+      "id": 7,
+      "sender": "customer",
+      "text": "Yes, that fits my budget."
+    },
+    {
+      "id": 8,
+      "sender": "agent",
+      "text": "Excellent! Could you specify the primary usage of your vehicle? Is it for personal use, business, or any other purpose?"
+    },
+    {
+      "id": 9,
+      "sender": "customer",
+      "text": "It will primarily be used for personal commuting."
+    },
+    {
+      "id": 10,
+      "sender": "agent",
+      "text": "Understood. Additionally, are there any specific add-ons or extra coverage options you'd like to include in your policy, such as roadside assistance, rental car coverage, or increased liability limits?"
+    },
+    {
+      "id": 11,
+      "sender": "customer",
+      "text": "I'd like to add {chosen_addons} to my policy."
+    },
+    {
+      "id": 12,
+      "sender": "agent",
+      "text": "Great choices! Your policy with the selected add-ons will offer comprehensive coverage. With these additions, your revised annual premium is $Y. Is this revised amount acceptable to you?"
+    },
+    {
+      "id": 13,
+      "sender": "customer",
+      "text": "Yes, that's acceptable."
+    },
+    {
+      "id": 14,
+      "sender": "agent",
+      "text": "Fantastic! {customer_name}, your detailed policy documentation will be sent to your email shortly, along with payment instructions. If you have further questions or need assistance, feel free to reach out. Thank you for choosing us for your car insurance. Drive safely!"
+    }
+  ],
+  "eval_score": 1,
+  "profile_match": 0
+},
+{
+  "dialog_id": "0x97531",
+  "dialog": [
+    {
+      "id": 0,
+      "sender": "agent",
+      "text": "Hello! Thank you for contacting our insurance services. How can I assist you today?"
+    },
+    {
+      "id": 1,
+      "sender": "customer",
+      "text": "I'm interested in purchasing car insurance. Can you provide details about the available coverage options?"
+    },
+    {
+      "id": 2,
+      "sender": "agent",
+      "text": "Absolutely! We have various coverage options such as liability, collision, comprehensive, personal injury protection, and uninsured motorist coverage. What specific coverage are you looking for?"
+    },
+    {
+      "id": 3,
+      "sender": "customer",
+      "text": "I'm considering comprehensive coverage for my vehicle."
+    },
+    {
+      "id": 4,
+      "sender": "agent",
+      "text": "Great choice! Comprehensive coverage protects against theft, vandalism, natural disasters, and more. To assist you better, could you provide details about your vehicle? Make, model, year, and any safety features it includes."
+    },
+    {
+      "id": 5,
+      "sender": "customer",
+      "text": "It's a {car_make} {car_model} from {car_year}, equipped with {safety_features}."
+    },
+    {
+      "id": 6,
+      "sender": "agent",
+      "text": "Thank you for sharing. Based on that, your estimated annual premium for comprehensive coverage is $X. Is this within your budget?"
+    },
+    {
+      "id": 7,
+      "sender": "customer",
+      "text": "Yes, that fits my budget."
+    },
+    {
+      "id": 8,
+      "sender": "agent",
+      "text": "Excellent! Could you specify the primary usage of your vehicle? Is it for personal use, business, or any other purpose?"
+    },
+    {
+      "id": 9,
+      "sender": "customer",
+      "text": "It will mainly be used for personal commuting."
+    },
+    {
+      "id": 10,
+      "sender": "agent",
+      "text": "Understood. Additionally, are there any specific add-ons or extra coverage options you'd like to include in your policy, such as roadside assistance, rental car coverage, or increased liability limits?"
+    },
+    {
+      "id": 11,
+      "sender": "customer",
+      "text": "I'd like to add {chosen_addons} to my policy."
+    },
+    {
+      "id": 12,
+      "sender": "agent",
+      "text": "Great choices! Your policy with the selected add-ons will offer comprehensive coverage. With these additions, your revised annual premium is $Y. Is this revised amount acceptable to you?"
+    },
+    {
+      "id": 13,
+      "sender": "customer",
+      "text": "Yes, that's acceptable."
+    },
+    {
+      "id": 14,
+      "sender": "agent",
+      "text": "Wonderful! {customer_name}, your detailed policy documentation will be sent to your email shortly, along with payment instructions. If you have further questions or need assistance, feel free to reach out. Thank you for choosing us for your car insurance. Drive safely!"
+    }
+  ],
+  "eval_score": 1,
+  "profile_match": 0
+},
+{
+  "dialog_id": "0xabcdef",
+  "dialog": [
+    {
+      "id": 0,
+      "sender": "agent",
+      "text": "Hello! Thank you for contacting our insurance services. How may I assist you today?"
+    },
+    {
+      "id": 1,
+      "sender": "customer",
+      "text": "I'm interested in purchasing car insurance. Could you provide me with details about the available coverage options?"
+    },
+    {
+      "id": 2,
+      "sender": "agent",
+      "text": "Certainly! We offer various coverage options including liability, collision, comprehensive, personal injury protection, and uninsured/underinsured motorist coverage. What specific coverage are you considering?"
+    },
+    {
+      "id": 3,
+      "sender": "customer",
+      "text": "I'm considering comprehensive coverage for my vehicle."
+    },
+    {
+      "id": 4,
+      "sender": "agent",
+      "text": "Great choice! Comprehensive coverage protects against theft, vandalism, natural disasters, and more. To assist you better, could you provide details about your vehicle? Make, model, year, and any safety features it includes."
+    },
+    {
+      "id": 5,
+      "sender": "customer",
+      "text": "It's a {car_make} {car_model} from {car_year}, equipped with {safety_features}."
+    },
+    {
+      "id": 6,
+      "sender": "agent",
+      "text": "Thank you for sharing. Based on that, your estimated annual premium for comprehensive coverage is $X. Is this within your budget?"
+    },
+    {
+      "id": 7,
+      "sender": "customer",
+      "text": "Yes, that fits my budget."
+    },
+    {
+      "id": 8,
+      "sender": "agent",
+      "text": "Excellent! Could you specify the primary usage of your vehicle? Is it for personal use, business, or any other purpose?"
+    },
+    {
+      "id": 9,
+      "sender": "customer",
+      "text": "It will primarily be used for personal commuting."
+    },
+    {
+      "id": 10,
+      "sender": "agent",
+      "text": "Understood. Additionally, are there any specific add-ons or extra coverage options you'd like to include in your policy, such as roadside assistance, rental car coverage, or increased liability limits?"
+    },
+    {
+      "id": 11,
+      "sender": "customer",
+      "text": "I'd like to add {chosen_addons} to my policy."
+    },
+    {
+      "id": 12,
+      "sender": "agent",
+      "text": "Great choices! Your policy with the selected add-ons will offer comprehensive coverage. With these additions, your revised annual premium is $Y. Is this revised amount acceptable to you?"
+    },
+    {
+      "id": 13,
+      "sender": "customer",
+      "text": "Yes, that's acceptable."
+    },
+    {
+      "id": 14,
+      "sender": "agent",
+      "text": "Wonderful! {customer_name}, your detailed policy documentation will be sent to your email shortly, along with payment instructions. If you have further questions or need assistance, feel free to reach out. Thank you for choosing us for your car insurance. Drive safely!"
+    }
+  ],
+  "eval_score": 1,
+  "profile_match": 0
+}
+
+,
+{
+  "dialog_id": "0x13579",
+  "dialog": [
+    {
+      "id": 0,
+      "sender": "agent",
+      "text": "Hello! Welcome to our insurance services. How can I assist you today?"
+    },
+    {
+      "id": 1,
+      "sender": "customer",
+      "text": "I'm interested in purchasing car insurance. Can you provide me with details about the available coverage options?"
+    },
+    {
+      "id": 2,
+      "sender": "agent",
+      "text": "Certainly! We offer a range of coverage options including liability, collision, comprehensive, personal injury protection, and uninsured motorist coverage. What specific coverage are you considering?"
+    },
+    {
+      "id": 3,
+      "sender": "customer",
+      "text": "I'm considering comprehensive coverage for my vehicle."
+    },
+    {
+      "id": 4,
+      "sender": "agent",
+      "text": "Great choice! Comprehensive coverage protects against theft, vandalism, natural disasters, and more. To assist you better, could you provide details about your vehicle? Make, model, year, and any safety features it includes."
+    },
+    {
+      "id": 5,
+      "sender": "customer",
+      "text": "It's a {car_make} {car_model} from {car_year}, equipped with {safety_features}."
+    },
+    {
+      "id": 6,
+      "sender": "agent",
+      "text": "Thank you for sharing. Based on that, your estimated annual premium for comprehensive coverage is $X. Is this within your expected budget?"
+    },
+    {
+      "id": 7,
+      "sender": "customer",
+      "text": "Yes, that fits my budget."
+    },
+    {
+      "id": 8,
+      "sender": "agent",
+      "text": "Perfect! Could you specify the primary use of your vehicle? Is it for personal use, business, or any other purpose?"
+    },
+    {
+      "id": 9,
+      "sender": "customer",
+      "text": "It will be primarily used for personal commuting."
+    },
+    {
+      "id": 10,
+      "sender": "agent",
+      "text": "Understood. Additionally, are there any specific add-ons or extra coverage options you'd like to include in your policy, such as roadside assistance, rental car coverage, or increased liability limits?"
+    },
+    {
+      "id": 11,
+      "sender": "customer",
+      "text": "I'd like to add {chosen_addons} to my policy."
+    },
+    {
+      "id": 12,
+      "sender": "agent",
+      "text": "Great choices! Your policy with the selected add-ons will offer comprehensive coverage. With these additions, your revised annual premium is $Y. Is this revised amount acceptable to you?"
+    },
+    {
+      "id": 13,
+      "sender": "customer",
+      "text": "Yes, that's acceptable."
+    },
+    {
+      "id": 14,
+      "sender": "agent",
+      "text": "Excellent! {customer_name}, your detailed policy documentation will be sent to your email shortly, along with payment instructions. If you have further questions or need assistance, feel free to reach out. Thank you for choosing us for your car insurance. Drive safely!"
+    }
+  ],
+  "eval_score": 1,
+  "profile_match": 0
+}
+,
+{
+  "dialog_id": "0x13579",
+  "dialog": [
+    {
+      "id": 0,
+      "sender": "agent",
+      "text": "Hello! Welcome to our insurance services. How can I assist you today?"
+    },
+    {
+      "id": 1,
+      "sender": "customer",
+      "text": "I'm interested in purchasing car insurance. Can you provide me with details about the available coverage options?"
+    },
+    {
+      "id": 2,
+      "sender": "agent",
+      "text": "Certainly! We offer a range of coverage options including liability, collision, comprehensive, personal injury protection, and uninsured motorist coverage. What specific coverage are you considering?"
+    },
+    {
+      "id": 3,
+      "sender": "customer",
+      "text": "I'm considering comprehensive coverage for my vehicle."
+    },
+    {
+      "id": 4,
+      "sender": "agent",
+      "text": "Great choice! Comprehensive coverage protects against theft, vandalism, natural disasters, and more. To assist you better, could you provide details about your vehicle? Make, model, year, and any safety features it includes."
+    },
+    {
+      "id": 5,
+      "sender": "customer",
+      "text": "It's a {car_make} {car_model} from {car_year}, equipped with {safety_features}."
+    },
+    {
+      "id": 6,
+      "sender": "agent",
+      "text": "Thank you for sharing. Based on that, your estimated annual premium for comprehensive coverage is $X. Is this within your expected budget?"
+    },
+    {
+      "id": 7,
+      "sender": "customer",
+      "text": "Yes, that fits my budget."
+    },
+    {
+      "id": 8,
+      "sender": "agent",
+      "text": "Perfect! Could you specify the primary use of your vehicle? Is it for personal use, business, or any other purpose?"
+    },
+    {
+      "id": 9,
+      "sender": "customer",
+      "text": "It will be primarily used for personal commuting."
+    },
+    {
+      "id": 10,
+      "sender": "agent",
+      "text": "Understood. Additionally, are there any specific add-ons or extra coverage options you'd like to include in your policy, such as roadside assistance, rental car coverage, or increased liability limits?"
+    },
+    {
+      "id": 11,
+      "sender": "customer",
+      "text": "I'd like to add {chosen_addons} to my policy."
+    },
+    {
+      "id": 12,
+      "sender": "agent",
+      "text": "Great choices! Your policy with the selected add-ons will offer comprehensive coverage. With these additions, your revised annual premium is $Y. Is this revised amount acceptable to you?"
+    },
+    {
+      "id": 13,
+      "sender": "customer",
+      "text": "Yes, that's acceptable."
+    },
+    {
+      "id": 14,
+      "sender": "agent",
+      "text": "Excellent! {customer_name}, your detailed policy documentation will be sent to your email shortly, along with payment instructions. If you have further questions or need assistance, feel free to reach out. Thank you for choosing us for your car insurance. Drive safely!"
+    }
+  ],
+  "eval_score": 1,
+  "profile_match": 0
+}
+,
+{
+  "dialog_id": "0x987654",
+  "dialog": [
+    {
+      "id": 0,
+      "sender": "agent",
+      "text": "Good day! Welcome to our insurance services. How may I assist you today?"
+    },
+    {
+      "id": 1,
+      "sender": "customer",
+      "text": "I'm looking to purchase car insurance. Could you provide me with details about the available coverage options?"
+    },
+    {
+      "id": 2,
+      "sender": "agent",
+      "text": "Certainly! We offer various coverage types including liability, collision, comprehensive, personal injury protection, and uninsured motorist coverage. What specific coverage are you interested in?"
+    },
+    {
+      "id": 3,
+      "sender": "customer",
+      "text": "I'm interested in comprehensive coverage for my vehicle."
+    },
+    {
+      "id": 4,
+      "sender": "agent",
+      "text": "Great choice! Comprehensive coverage protects against theft, vandalism, natural disasters, and more. To assist you further, could you provide details about your vehicle? Make, model, year, and any safety features it includes."
+    },
+    {
+      "id": 5,
+      "sender": "customer",
+      "text": "It's a {car_make} {car_model} from {car_year}, equipped with {safety_features}."
+    },
+    {
+      "id": 6,
+      "sender": "agent",
+      "text": "Thank you for sharing. Based on that, your estimated annual premium for comprehensive coverage is $X. Does this align with your budget?"
+    },
+    {
+      "id": 7,
+      "sender": "customer",
+      "text": "Yes, that works for me."
+    },
+    {
+      "id": 8,
+      "sender": "agent",
+      "text": "Excellent! Can you specify the primary usage of your vehicle? Is it for personal use, business, or any other specific purpose?"
+    },
+    {
+      "id": 9,
+      "sender": "customer",
+      "text": "It will mainly be used for personal commuting."
+    },
+    {
+      "id": 10,
+      "sender": "agent",
+      "text": "Understood. Additionally, are there any specific add-ons or extra coverage options you'd like to include in your policy, such as roadside assistance, rental car coverage, or increased liability limits?"
+    },
+    {
+      "id": 11,
+      "sender": "customer",
+      "text": "I'd like to add {chosen_addons} to my policy."
+    },
+    {
+      "id": 12,
+      "sender": "agent",
+      "text": "Great choices! Your policy with the selected add-ons will provide comprehensive coverage. With these additions, your revised annual premium is $Y. Is this revised amount acceptable to you?"
+    },
+    {
+      "id": 13,
+      "sender": "customer",
+      "text": "Yes, that's acceptable."
+    },
+    {
+      "id": 14,
+      "sender": "agent",
+      "text": "Fantastic! {customer_name}, your detailed policy documentation will be sent to your email shortly, along with payment instructions. If you have further queries or need assistance, feel free to reach out. Thank you for choosing us for your car insurance. Drive safely!"
+    }
+  ],
+  "eval_score": 1,
+  "profile_match": 0
+},
+{
+  "dialog_id": "0x654321",
+  "dialog": [
+    {
+      "id": 0,
+      "sender": "agent",
+      "text": "Hello! Welcome to our insurance services. How can I assist you today?"
+    },
+    {
+      "id": 1,
+      "sender": "customer",
+      "text": "I'm interested in purchasing car insurance. Can you provide me with information about the available coverage options?"
+    },
+    {
+      "id": 2,
+      "sender": "agent",
+      "text": "Absolutely! We have various coverage options such as liability, collision, comprehensive, personal injury protection, and uninsured motorist coverage. What specific coverage are you looking for?"
+    },
+    {
+      "id": 3,
+      "sender": "customer",
+      "text": "I'm considering comprehensive coverage for my vehicle."
+    },
+    {
+      "id": 4,
+      "sender": "agent",
+      "text": "Great choice! Comprehensive coverage protects against theft, vandalism, natural disasters, and more. To assist you better, could you provide details about your vehicle? Make, model, year, and any safety features it includes."
+    },
+    {
+      "id": 5,
+      "sender": "customer",
+      "text": "It's a {car_make} {car_model} manufactured in {car_year}, equipped with {safety_features}."
+    },
+    {
+      "id": 6,
+      "sender": "agent",
+      "text": "Thank you for sharing. Based on that, your estimated annual premium for comprehensive coverage is $X. Is this within your expected budget?"
+    },
+    {
+      "id": 7,
+      "sender": "customer",
+      "text": "Yes, that fits my budget."
+    },
+    {
+      "id": 8,
+      "sender": "agent",
+      "text": "Perfect! Could you specify the primary use of your vehicle? Is it for personal use, business, or any other purpose?"
+    },
+    {
+      "id": 9,
+      "sender": "customer",
+      "text": "It will be used for personal commuting."
+    },
+    {
+      "id": 10,
+      "sender": "agent",
+      "text": "Understood. Additionally, are there any specific add-ons or extra coverage options you'd like to include in your policy, such as roadside assistance, rental car coverage, or increased liability limits?"
+    },
+    {
+      "id": 11,
+      "sender": "customer",
+      "text": "I'd like to add {chosen_addons} to my policy."
+    },
+    {
+      "id": 12,
+      "sender": "agent",
+      "text": "Great choices! Your policy with the selected add-ons will offer comprehensive coverage. With these additions, your revised annual premium is $Y. Does this revised amount work for you?"
+    },
+    {
+      "id": 13,
+      "sender": "customer",
+      "text": "Yes, that's acceptable."
+    },
+    {
+      "id": 14,
+      "sender": "agent",
+      "text": "Fantastic! {customer_name}, your detailed policy documentation will be sent to your email shortly, including payment instructions. If you have further queries or need assistance, feel free to reach out. Thank you for choosing us for your car insurance. Drive safely!"
+    }
+  ],
+  "eval_score": 1,
+  "profile_match": 0
+},{
+  "dialog_id": "0x8e7b43",
+  "dialog": [
+    {
+      "id": 0,
+      "sender": "agent",
+      "text": "Welcome to our insurance services! How can I assist you today?"
+    },
+    {
+      "id": 1,
+      "sender": "customer",
+      "text": "I'm interested in getting car insurance. Can you provide me with details about the available coverage options?"
+    },
+    {
+      "id": 2,
+      "sender": "agent",
+      "text": "Certainly! We offer various coverage types like liability, collision, comprehensive, personal injury protection, and uninsured/underinsured motorist coverage. What specific coverage are you looking for?"
+    },
+    {
+      "id": 3,
+      "sender": "customer",
+      "text": "I'm considering comprehensive coverage for my vehicle."
+    },
+    {
+      "id": 4,
+      "sender": "agent",
+      "text": "Great choice! Our comprehensive coverage safeguards against theft, vandalism, natural disasters, and more. To assist you better, could you provide the details of your vehicle? Make, model, year, and any safety features it includes."
+    },
+    {
+      "id": 5,
+      "sender": "customer",
+      "text": "It's a {car_make} {car_model} from {car_year}, equipped with {safety_features}."
+    },
+    {
+      "id": 6,
+      "sender": "agent",
+      "text": "Thank you for sharing. Based on that, your estimated annual premium for comprehensive coverage is $X. Does this fit within your budget?"
+    },
+    {
+      "id": 7,
+      "sender": "customer",
+      "text": "Yes, that works for me."
+    },
+    {
+      "id": 8,
+      "sender": "agent",
+      "text": "Excellent! Could you specify the primary usage of your vehicle? Is it for personal use, business, or any other purpose?"
+    },
+    {
+      "id": 9,
+      "sender": "customer",
+      "text": "It will primarily be used for personal commuting."
+    },
+    {
+      "id": 10,
+      "sender": "agent",
+      "text": "Understood. Additionally, are there any specific add-ons or extra coverage options you'd like to include in your policy, such as roadside assistance, rental car coverage, or increased liability limits?"
+    },
+    {
+      "id": 11,
+      "sender": "customer",
+      "text": "I'd like to add {chosen_addons} to my policy."
+    },
+    {
+      "id": 12,
+      "sender": "agent",
+      "text": "Great choices! Your policy with the selected add-ons will provide comprehensive coverage. With these additions, your revised annual premium is $Y. Is this revised amount acceptable to you?"
+    },
+    {
+      "id": 13,
+      "sender": "customer",
+      "text": "Yes, that's acceptable."
+    },
+    {
+      "id": 14,
+      "sender": "agent",
+      "text": "Perfect! {customer_name}, your detailed policy documentation will be sent to your email shortly, along with payment instructions. If you have any further questions or need assistance, please don't hesitate to reach out. Thank you for choosing us for your car insurance needs. Drive safely!"
+    }
+  ],
+  "eval_score": 1,
+  "profile_match": 0
+}
+,{
+  "dialog_id": "0x8e7b43",
+  "dialog": [
+    {
+      "id": 0,
+      "sender": "agent",
+      "text": "Welcome to our insurance services! How can I assist you today?"
+    },
+    {
+      "id": 1,
+      "sender": "customer",
+      "text": "I'm interested in getting car insurance. Can you provide me with details about the available coverage options?"
+    },
+    {
+      "id": 2,
+      "sender": "agent",
+      "text": "Certainly! We offer various coverage types like liability, collision, comprehensive, personal injury protection, and uninsured/underinsured motorist coverage. What specific coverage are you looking for?"
+    },
+    {
+      "id": 3,
+      "sender": "customer",
+      "text": "I'm considering comprehensive coverage for my vehicle."
+    },
+    {
+      "id": 4,
+      "sender": "agent",
+      "text": "Great choice! Our comprehensive coverage safeguards against theft, vandalism, natural disasters, and more. To assist you better, could you provide the details of your vehicle? Make, model, year, and any safety features it includes."
+    },
+    {
+      "id": 5,
+      "sender": "customer",
+      "text": "It's a {car_make} {car_model} from {car_year}, equipped with {safety_features}."
+    },
+    {
+      "id": 6,
+      "sender": "agent",
+      "text": "Thank you for sharing. Based on that, your estimated annual premium for comprehensive coverage is $X. Does this fit within your budget?"
+    },
+    {
+      "id": 7,
+      "sender": "customer",
+      "text": "Yes, that works for me."
+    },
+    {
+      "id": 8,
+      "sender": "agent",
+      "text": "Excellent! Could you specify the primary usage of your vehicle? Is it for personal use, business, or any other purpose?"
+    },
+    {
+      "id": 9,
+      "sender": "customer",
+      "text": "It will primarily be used for personal commuting."
+    },
+    {
+      "id": 10,
+      "sender": "agent",
+      "text": "Understood. Additionally, are there any specific add-ons or extra coverage options you'd like to include in your policy, such as roadside assistance, rental car coverage, or increased liability limits?"
+    },
+    {
+      "id": 11,
+      "sender": "customer",
+      "text": "I'd like to add {chosen_addons} to my policy."
+    },
+    {
+      "id": 12,
+      "sender": "agent",
+      "text": "Great choices! Your policy with the selected add-ons will provide comprehensive coverage. With these additions, your revised annual premium is $Y. Is this revised amount acceptable to you?"
+    },
+    {
+      "id": 13,
+      "sender": "customer",
+      "text": "Yes, that's acceptable."
+    },
+    {
+      "id": 14,
+      "sender": "agent",
+      "text": "Perfect! {customer_name}, your detailed policy documentation will be sent to your email shortly, along with payment instructions. If you have any further questions or need assistance, please don't hesitate to reach out. Thank you for choosing us for your car insurance needs. Drive safely!"
+    }
+  ],
+  "eval_score": 1,
+  "profile_match": 0
+}
+,{
+  "dialog_id": "0x6f2d9e",
+  "dialog": [
+    {
+      "id": 0,
+      "sender": "agent",
+      "text": "Hello and welcome to our insurance services! How can I assist you today?"
+    },
+    {
+      "id": 1,
+      "sender": "customer",
+      "text": "I'm interested in exploring car insurance options. Could you provide information about the available coverage plans?"
+    },
+    {
+      "id": 2,
+      "sender": "agent",
+      "text": "Certainly! We offer various coverage types, including liability, collision, comprehensive, medical payments, and uninsured/underinsured motorist coverage. Which specific coverage are you considering?"
+    },
+    {
+      "id": 3,
+      "sender": "customer",
+      "text": "I'm specifically interested in comprehensive coverage for my vehicle."
+    },
+    {
+      "id": 4,
+      "sender": "agent",
+      "text": "Great choice! Our comprehensive coverage protects against theft, vandalism, natural disasters, and more. To assist you better, could you provide details about your car? Make, model, year, and any safety features it has."
+    },
+    {
+      "id": 5,
+      "sender": "customer",
+      "text": "It's a {car_make} {car_model}, manufactured in {car_year}, equipped with {safety_features}."
+    },
+    {
+      "id": 6,
+      "sender": "agent",
+      "text": "Thank you for the details. Based on that, your estimated annual premium for comprehensive coverage is $X. Does this align with your budget?"
+    },
+    {
+      "id": 7,
+      "sender": "customer",
+      "text": "Yes, that's within my budget."
+    },
+    {
+      "id": 8,
+      "sender": "agent",
+      "text": "Perfect! Can you specify the primary usage of your vehicle? Is it for personal use, business, or any other specific purpose?"
+    },
+    {
+      "id": 9,
+      "sender": "customer",
+      "text": "It will mainly be used for personal commuting."
+    },
+    {
+      "id": 10,
+      "sender": "agent",
+      "text": "Understood. Additionally, are there any specific add-ons or extra coverage options you'd like to include in your policy, such as roadside assistance, rental car coverage, or enhanced liability protection?"
+    },
+    {
+      "id": 11,
+      "sender": "customer",
+      "text": "I'd like to add {chosen_addons} to my policy."
+    },
+    {
+      "id": 12,
+      "sender": "agent",
+      "text": "Excellent choices! Your policy with the selected add-ons will offer comprehensive coverage. With these additions, your revised annual premium is $Y. Is this revised amount acceptable to you?"
+    },
+    {
+      "id": 13,
+      "sender": "customer",
+      "text": "Yes, that works for me."
+    },
+    {
+      "id": 14,
+      "sender": "agent",
+      "text": "Wonderful! {customer_name}, your detailed policy documentation will be emailed to you shortly. It will also contain instructions for payment. Should you have any further questions or need assistance, please feel free to contact us. Thank you for choosing us for your car insurance needs. Drive safely!"
+    }
+  ],
+  "eval_score": 1,
+  "profile_match": 0
+}
+,{
+  "dialog_id": "0x9e4b18",
+  "dialog": [
+    {
+      "id": 0,
+      "sender": "agent",
+      "text": "Hello! Welcome to our insurance services. How may I assist you with your car insurance needs today?"
+    },
+    {
+      "id": 1,
+      "sender": "customer",
+      "text": "I'm looking to purchase car insurance. Can you provide me with details about the available plans and coverage options?"
+    },
+    {
+      "id": 2,
+      "sender": "agent",
+      "text": "Absolutely! We offer a range of coverage options including liability, collision, comprehensive, uninsured/underinsured motorist, and medical payments coverage. Which ones are you interested in?"
+    },
+    {
+      "id": 3,
+      "sender": "customer",
+      "text": "I'm interested in comprehensive coverage for my vehicle."
+    },
+    {
+      "id": 4,
+      "sender": "agent",
+      "text": "Great choice! Our comprehensive coverage protects against various scenarios such as theft, vandalism, natural disasters, and more. To assist you further, could you provide the details of your vehicle? Make, model, year, and any safety features it has."
+    },
+    {
+      "id": 5,
+      "sender": "customer",
+      "text": "It's a {car_make} {car_model} manufactured in {car_year}. It includes {safety_features}."
+    },
+    {
+      "id": 6,
+      "sender": "agent",
+      "text": "Thank you for providing the details. Based on that, your estimated annual premium for comprehensive coverage is $X. Does this fit within your budget?"
+    },
+    {
+      "id": 7,
+      "sender": "customer",
+      "text": "Yes, that works for me."
+    },
+    {
+      "id": 8,
+      "sender": "agent",
+      "text": "Excellent! Could you specify the primary use of your vehicle? Is it for personal commuting, business, or any other purpose?"
+    },
+    {
+      "id": 9,
+      "sender": "customer",
+      "text": "It will be primarily used for personal commuting."
+    },
+    {
+      "id": 10,
+      "sender": "agent",
+      "text": "Understood. Additionally, are there any specific add-ons or extra coverage options you'd like to include in your policy, such as roadside assistance, rental car coverage, or increased liability limits?"
+    },
+    {
+      "id": 11,
+      "sender": "customer",
+      "text": "I'd like to add {chosen_addons} to my policy."
+    },
+    {
+      "id": 12,
+      "sender": "agent",
+      "text": "Great choices! Your policy with the selected add-ons will provide comprehensive coverage. With these additions, your revised annual premium is $Y. Is this revised amount acceptable to you?"
+    },
+    {
+      "id": 13,
+      "sender": "customer",
+      "text": "Yes, that's acceptable."
+    },
+    {
+      "id": 14,
+      "sender": "agent",
+      "text": "Perfect! {customer_name}, your detailed policy documentation will be sent to your provided email shortly. It will also contain instructions for payment. If you have any further inquiries or need assistance, please don't hesitate to contact us. Thank you for choosing us for your car insurance needs. Drive safely!"
+    }
+  ],
+  "eval_score": 1,
+  "profile_match": 0
+},
+{
+  "dialog_id": "0x7d3a2f",
+  "dialog": [
+    {
+      "id": 0,
+      "sender": "agent",
+      "text": "Welcome to our insurance services! How can I assist you today?"
+    },
+    {
+      "id": 1,
+      "sender": "customer",
+      "text": "I'm in the market for car insurance. Can you provide information about the available coverage options?"
+    },
+    {
+      "id": 2,
+      "sender": "agent",
+      "text": "Absolutely! We offer various coverage types such as liability, collision, comprehensive, personal injury protection, and uninsured/underinsured motorist coverage. What specific coverage are you considering?"
+    },
+    {
+      "id": 3,
+      "sender": "customer",
+      "text": "I'm interested in comprehensive coverage for my vehicle."
+    },
+    {
+      "id": 4,
+      "sender": "agent",
+      "text": "Great choice! Our comprehensive coverage protects against theft, vandalism, natural disasters, and more. To assist you better, could you provide details about your car? Make, model, year, and any safety features it has."
+    },
+    {
+      "id": 5,
+      "sender": "customer",
+      "text": "It's a {car_make} {car_model} from {car_year}, equipped with {safety_features}."
+    },
+    {
+      "id": 6,
+      "sender": "agent",
+      "text": "Thank you for the details. Based on that, your estimated annual premium for comprehensive coverage is $X. Does this align with your budget?"
+    },
+    {
+      "id": 7,
+      "sender": "customer",
+      "text": "Yes, that's within my budget."
+    },
+    {
+      "id": 8,
+      "sender": "agent",
+      "text": "Perfect! Could you clarify the primary use of your vehicle? Is it for personal use, business, or any other specific purpose?"
+    },
+    {
+      "id": 9,
+      "sender": "customer",
+      "text": "It will primarily be used for personal commuting."
+    },
+    {
+      "id": 10,
+      "sender": "agent",
+      "text": "Understood. Additionally, are there any specific add-ons or extra coverage options you'd like to include in your policy, such as roadside assistance, rental car coverage, or increased liability limits?"
+    },
+    {
+      "id": 11,
+      "sender": "customer",
+      "text": "I'd like to add {chosen_addons} to my policy."
+    },
+    {
+      "id": 12,
+      "sender": "agent",
+      "text": "Excellent choices! Your policy with the selected add-ons will offer comprehensive coverage. With these additions, your revised annual premium is $Y. Is this revised amount suitable for you?"
+    },
+    {
+      "id": 13,
+      "sender": "customer",
+      "text": "Yes, that works for me."
+    },
+    {
+      "id": 14,
+      "sender": "agent",
+      "text": "Great! {customer_name}, your detailed policy documentation will be emailed to you shortly. It will also contain payment instructions. If you have any further inquiries or need assistance, please feel free to contact us. Thank you for choosing our insurance services for your car coverage. Drive safely!"
+    }
+  ],
+  "eval_score": 1,
+  "profile_match": 0
+},
+{
+  "dialog_id": "0x8b5d12",
+  "dialog": [
+    {
+      "id": 0,
+      "sender": "agent",
+      "text": "Greetings! Thank you for reaching out to our insurance services. How can I assist you today?"
+    },
+    {
+      "id": 1,
+      "sender": "customer",
+      "text": "I'm inquiring about car insurance. What coverage options do you have available?"
+    },
+    {
+      "id": 2,
+      "sender": "agent",
+      "text": "Certainly! We offer a range of coverage options including liability, collision, comprehensive, medical payments, and uninsured motorist coverage. Which ones are you interested in?"
+    },
+    {
+      "id": 3,
+      "sender": "customer",
+      "text": "I'm interested in comprehensive coverage for my vehicle."
+    },
+    {
+      "id": 4,
+      "sender": "agent",
+      "text": "Excellent choice! Our comprehensive coverage safeguards against various scenarios like theft, vandalism, natural disasters, and more. To better assist you, could you provide details about your car? Make, model, and year would be helpful."
+    },
+    {
+      "id": 5,
+      "sender": "customer",
+      "text": "It's a {car_make} {car_model}, manufactured in {car_year}."
+    },
+    {
+      "id": 6,
+      "sender": "agent",
+      "text": "Thank you. Based on the information provided, your estimated annual premium for comprehensive coverage is $X. Is this within your expected budget?"
+    },
+    {
+      "id": 7,
+      "sender": "customer",
+      "text": "Yes, that fits my budget."
+    },
+    {
+      "id": 8,
+      "sender": "agent",
+      "text": "Great! Can you specify the primary use of the vehicle? Is it for personal use, business, or any other purpose?"
+    },
+    {
+      "id": 9,
+      "sender": "customer",
+      "text": "It will be used primarily for personal commuting."
+    },
+    {
+      "id": 10,
+      "sender": "agent",
+      "text": "Understood. Additionally, are there any specific add-ons or extra coverage options you'd like to include in your policy, such as roadside assistance, rental car coverage, or increased liability limits?"
+    },
+    {
+      "id": 11,
+      "sender": "customer",
+      "text": "I'd like to add {chosen_addons} to my policy."
+    },
+    {
+      "id": 12,
+      "sender": "agent",
+      "text": "Great choices! Your policy with the selected add-ons will provide comprehensive support. With these additions, your revised annual premium is $Y. Does this revised amount align with your expectations?"
+    },
+    {
+      "id": 13,
+      "sender": "customer",
+      "text": "Yes, that's acceptable."
+    },
+    {
+      "id": 14,
+      "sender": "agent",
+      "text": "Excellent! {customer_name}, your detailed policy documentation will be emailed to you shortly. It will also contain instructions for payment. If you have any further questions or need assistance, please don't hesitate to contact us. Thank you for choosing our services for your car insurance needs. Drive safely!"
+    }
+  ],
+  "eval_score": 1,
+  "profile_match": 0
+},
+{
+  "dialog_id": "0x2a6fbc",
+  "dialog": [
+    {
+      "id": 0,
+      "sender": "agent",
+      "text": "Hello and welcome to our insurance services! How can I assist you today?"
+    },
+    {
+      "id": 1,
+      "sender": "customer",
+      "text": "I'm interested in purchasing car insurance. Can you provide me with details about the available plans?"
+    },
+    {
+      "id": 2,
+      "sender": "agent",
+      "text": "Of course! We offer various coverage options such as liability, collision, comprehensive, medical payments, and uninsured motorist coverage. Which ones are you considering?"
+    },
+    {
+      "id": 3,
+      "sender": "customer",
+      "text": "I'm looking for comprehensive coverage for my vehicle."
+    },
+    {
+      "id": 4,
+      "sender": "agent",
+      "text": "Great choice! Our comprehensive coverage protects against theft, vandalism, natural disasters, and more. To assist you better, could you provide details about your car? Make, model, and year would be helpful."
+    },
+    {
+      "id": 5,
+      "sender": "customer",
+      "text": "It's a {car_make} {car_model}, manufactured in {car_year}."
+    },
+    {
+      "id": 6,
+      "sender": "agent",
+      "text": "Thank you. Based on the provided details, your estimated annual premium for comprehensive coverage is $X. Is this within your expected budget?"
+    },
+    {
+      "id": 7,
+      "sender": "customer",
+      "text": "Yes, that fits my budget."
+    },
+    {
+      "id": 8,
+      "sender": "agent",
+      "text": "Perfect! Could you specify the primary use of the vehicle? Is it for personal use, business, or any other purpose?"
+    },
+    {
+      "id": 9,
+      "sender": "customer",
+      "text": "It will mainly be used for personal commuting."
+    },
+    {
+      "id": 10,
+      "sender": "agent",
+      "text": "Understood. Additionally, are there any specific add-ons or extra coverage options you'd like to include in your policy, such as roadside assistance, rental car coverage, or enhanced liability protection?"
+    },
+    {
+      "id": 11,
+      "sender": "customer",
+      "text": "I'd like to add {chosen_addons} to my policy."
+    },
+    {
+      "id": 12,
+      "sender": "agent",
+      "text": "Excellent choices! Your policy with the selected add-ons will provide comprehensive support. With these additions, your revised annual premium is $Y. Is this revised amount acceptable to you?"
+    },
+    {
+      "id": 13,
+      "sender": "customer",
+      "text": "Yes, that works for me."
+    },
+    {
+      "id": 14,
+      "sender": "agent",
+      "text": "Great! {customer_name}, your detailed policy documentation will be sent to your provided email shortly. It will also contain instructions for payment. Should you have any further inquiries or need assistance, please don't hesitate to reach out. Thank you for choosing us for your car insurance needs. Drive safely!"
+    }
+  ],
+  "eval_score": 1,
+  "profile_match": 0
+},
+{
+  "dialog_id": "0x5d712e",
+  "dialog": [
+    {
+      "id": 0,
+      "sender": "agent",
+      "text": "Hello there! Welcome to our insurance services. How can I assist you with your car insurance needs today?"
+    },
+    {
+      "id": 1,
+      "sender": "customer",
+      "text": "I'm looking to purchase car insurance for my vehicle. What are the available coverage options?"
+    },
+    {
+      "id": 2,
+      "sender": "agent",
+      "text": "Absolutely! We offer a range of coverage options: Liability, Collision, Comprehensive, Personal Injury Protection, and Uninsured Motorist coverage. Which ones are you interested in?"
+    },
+    {
+      "id": 3,
+      "sender": "customer",
+      "text": "I'd like a comprehensive coverage plan."
+    },
+    {
+      "id": 4,
+      "sender": "agent",
+      "text": "Excellent choice! Our comprehensive plan provides coverage for various scenarios such as theft, vandalism, natural disasters, and more. To proceed, could you provide your vehicle's details? Make, model, and year would be helpful."
+    },
+    {
+      "id": 5,
+      "sender": "customer",
+      "text": "It's a {car_make} {car_model}, manufactured in {car_year}."
+    },
+    {
+      "id": 6,
+      "sender": "agent",
+      "text": "Thank you. Based on the details provided, your estimated annual premium for comprehensive coverage is $X. Does this align with your budget?"
+    },
+    {
+      "id": 7,
+      "sender": "customer",
+      "text": "Yes, that's within my budget."
+    },
+    {
+      "id": 8,
+      "sender": "agent",
+      "text": "Great! To tailor the policy accurately, could you share your primary usage of the vehicle? Is it for personal commuting, business, or any other purpose?"
+    },
+    {
+      "id": 9,
+      "sender": "customer",
+      "text": "I'll be using it mainly for personal commuting."
+    },
+    {
+      "id": 10,
+      "sender": "agent",
+      "text": "Understood. Additionally, do you have any specific add-ons or riders you'd like to include in your policy, such as roadside assistance, rental car coverage, or windshield replacement?"
+    },
+    {
+      "id": 11,
+      "sender": "customer",
+      "text": "I'd like to include {chosen_addons}."
+    },
+    {
+      "id": 12,
+      "sender": "agent",
+      "text": "Great choices! Your policy with the selected add-ons will ensure comprehensive support. Your revised annual premium with these additions is $Y. Does this revised amount work for you?"
+    },
+    {
+      "id": 13,
+      "sender": "customer",
+      "text": "Yes, that's acceptable."
+    },
+    {
+      "id": 14,
+      "sender": "agent",
+      "text": "Perfect! {customer_name}, your detailed policy documentation will be emailed to you shortly. It will also include payment instructions. If you have any further questions or need assistance, feel free to contact us. Thank you for choosing us for your car insurance needs. Safe travels!"
+    }
+  ],
+  "eval_score": 1,
+  "profile_match": 0
+},{
+  "dialog_id": "0x9f1c74",
+  "dialog": [
+    {
+      "id": 0,
+      "sender": "agent",
+      "text": "Hello! Thank you for choosing our insurance services. How can I assist you today?"
+    },
+    {
+      "id": 1,
+      "sender": "customer",
+      "text": "I'm interested in car insurance. What options do you have available?"
+    },
+    {
+      "id": 2,
+      "sender": "agent",
+      "text": "Certainly! We offer different tiers of car insurance coverage - Basic, Standard, and Premium. Which level are you considering?"
+    },
+    {
+      "id": 3,
+      "sender": "customer",
+      "text": "I'm inclined towards the Standard coverage."
+    },
+    {
+      "id": 4,
+      "sender": "agent",
+      "text": "Great choice! Our Standard package includes coverage for common liabilities and moderate damages. To proceed, could you provide me with the make and model of your vehicle?"
+    },
+    {
+      "id": 5,
+      "sender": "customer",
+      "text": "It's a {car_make} {car_model}."
+    },
+    {
+      "id": 6,
+      "sender": "agent",
+      "text": "Thank you. What is the year of manufacture for your {car_make} {car_model}?"
+    },
+    {
+      "id": 7,
+      "sender": "customer",
+      "text": "It's a {car_year} model."
+    },
+    {
+      "id": 8,
+      "sender": "agent",
+      "text": "With the selected Standard package, the estimated annual premium for your {car_make} {car_model} {car_year} is $Z. This includes coverage for bodily injury, property damage, and collision. Additionally, it provides protection against theft and vandalism. Would you like to proceed with this coverage?"
+    },
+    {
+      "id": 9,
+      "sender": "customer",
+      "text": "Yes, that sounds good."
+    },
+    {
+      "id": 10,
+      "sender": "agent",
+      "text": "Perfect! To finalize your policy, could you confirm your address and specify if the car will be used for personal or business purposes?"
+    },
+    {
+      "id": 11,
+      "sender": "customer",
+      "text": "My address is {customer_address}, and I'll be using the car for personal purposes."
+    },
+    {
+      "id": 12,
+      "sender": "agent",
+      "text": "Got it. Your policy will be sent to {customer_address}. Additionally, would you like to include any additional features like roadside assistance or rental car coverage?"
+    },
+    {
+      "id": 13,
+      "sender": "customer",
+      "text": "Yes, I'd like to add {additional_feature}."
+    },
+    {
+      "id": 14,
+      "sender": "agent",
+      "text": "Excellent choice. The {additional_feature} add-on ensures you have support in emergencies. Your updated annual premium with this addition is $A. Does that work for you?"
+    },
+    {
+      "id": 15,
+      "sender": "customer",
+      "text": "Yes, that's acceptable."
+    },
+    {
+      "id": 16,
+      "sender": "agent",
+      "text": "Great! {customer_name}, your detailed policy document will be sent shortly, along with payment instructions. If you have further queries or need assistance, feel free to reach out. Thank you for choosing our insurance services. Safe driving!"
+    }
+  ],
+  "eval_score": 1,
+  "profile_match": 0
+}
+]
+
