@@ -7,7 +7,7 @@ let lastRequestTime = 0;
 const MIN_REQUEST_DELAY = 2000;
 async function getDataFromJSONFile() {
   try {
-    const response = await fetch("datas.json"); // Replace with your file path
+    const response = await fetch("datas.json");
     const data = await response.json();
     return data;
   } catch (error) {

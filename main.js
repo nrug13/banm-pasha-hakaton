@@ -132,8 +132,7 @@ let statusbot = document.querySelector(".status");
 
 let lastRequestTime = 0;
 const MIN_REQUEST_DELAY = 2000;
-let isBotResponded = true; // Flag to track bot response status
-
+let isBotResponded = true; 
 function changePlaceholder() {
   const selectedLanguage = languageSelect.value;
 
@@ -214,7 +213,7 @@ async function sendMessageToGPT(message) {
         headers: {
           "Content-Type": "application/json",
           Authorization:
-            "Bearer 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", // Replace with your actual API key
+            "Bearer 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", // 
         },
       }
     );
@@ -240,10 +239,10 @@ async function typeBotResponse(message) {
     if (index < text.length) {
       botResponseElement.textContent += text.charAt(index);
       index++;
-      await new Promise((resolve) => setTimeout(resolve, 7)); // Adjust typing speed here (in milliseconds)
+      await new Promise((resolve) => setTimeout(resolve, 7)); 
       await type();
     } else {
-      isBotResponded = true; // Set flag to indicate bot has finished typing
+      isBotResponded = true; 
     }
   }
 
@@ -253,20 +252,20 @@ async function typeBotResponse(message) {
 async function sendMessage() {
   const message = inputField.value.trim();
   if (message !== "" && isBotResponded) {
-    // Allow sending only if the bot has responded
-    addMessageToChat(message, true); // Display user message
-    isBotResponded = false; // Set flag to indicate bot response is pending
+    
+    addMessageToChat(message, true); 
+    isBotResponded = false; 
 
     try {
       const botResponse = await sendMessageToGPT(message);
-      await typeBotResponse(botResponse); // Display bot response with typing effect
+      await typeBotResponse(botResponse); 
 
       inputField.value = "";
-      isBotResponded = true; // Set flag to indicate bot has responded
-      chatBox.scrollTop = chatBox.scrollHeight; // Scroll to bottom after bot response
+      isBotResponded = true; 
+      chatBox.scrollTop = chatBox.scrollHeight; 
     } catch (error) {
       console.error("Error:", error);
-      // Handle errors here
+      
     }
   }
 }
