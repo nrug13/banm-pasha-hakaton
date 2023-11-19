@@ -3,3 +3,4 @@ Flask==3.0.0
 torch==2.1.1
 tqdm==4.66.1
 request
+transformers
