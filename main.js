@@ -75,14 +75,14 @@ async function displayTypingAnimation() {
 
   function animateEllipsis() {
     if (index === ellipsisAnimation.length) {
-      index = 0; 
+      index = 0;
     }
 
     botResponseElement.textContent = ellipsisAnimation[index];
     botResponseElement.style.fontSize = "24px";
     botResponseElement.style.animation = "bounce 0.6s infinite";
     index++;
-    setTimeout(animateEllipsis, 500); 
+    setTimeout(animateEllipsis, 500);
   }
 
   animateEllipsis();
@@ -102,7 +102,7 @@ async function typeBotResponse(message) {
     if (index < text.length) {
       botResponseElement.textContent += text.charAt(index);
       index++;
-      await new Promise((resolve) => setTimeout(resolve, 10)); 
+      await new Promise((resolve) => setTimeout(resolve, 10));
       await type();
     }
   }
@@ -112,7 +112,7 @@ async function typeBotResponse(message) {
   if (ellipsisElement) {
     setTimeout(() => {
       chatBox.removeChild(ellipsisElement);
-    }, 100); 
+    }, 100);
   }
 }
 
@@ -133,6 +133,8 @@ async function sendMessage() {
       chatBox.scrollTop = chatBox.scrollHeight;
     } catch (error) {
       console.error("Error:", error);
+    } finally {
+      inputField.value = ""; // Ensure input field is cleared even on error
     }
   }
 }
