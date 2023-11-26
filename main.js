@@ -125,16 +125,14 @@ async function sendMessage() {
 
     try {
       displayTypingAnimation();
+      inputField.value = "";
       const botResponse = await sendMessageToGPT(message);
       await typeBotResponse(botResponse);
 
-      inputField.value = "";
       isBotResponded = true;
       chatBox.scrollTop = chatBox.scrollHeight;
     } catch (error) {
       console.error("Error:", error);
-    } finally {
-      inputField.value = ""; // Ensure input field is cleared even on error
     }
   }
 }
