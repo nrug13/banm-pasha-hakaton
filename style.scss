@@ -324,45 +324,7 @@ select {
   margin-left: 2vh;
   animation: fadeIn 0.5s ease forwards;
 }
-@media only screen and (max-width: 500px) {
-  .container {
-    width: 100%;
-    height: 100%;
-    border-radius: 0px;
-  }
-  body {
-    display: block;
-    height: calc(100vh - 170px);
-    overflow: auto;
-  }
-  .ContentChat {
-    height: 100%;
-    margin-top: 90px;
-    margin-bottom: 80px;
-    overflow: auto;
-  }
-  .top {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: $background-color_1;
-  }
-  .BoxSentMSG {
-    position: fixed;
-    bottom: 30px;
-    left: 0;
-    right: 0;
-    background-color: $background-color_1;
-  }
-  .by {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: $background-color_1;
-  }
-}
+
 .send-icon {
   transition: transform 0.2s ease-in-out;
   &:hover {
@@ -373,46 +335,6 @@ select {
   }
 }
 
-@media only screen and (min-width: 600px) {
-  .container {
-    width: 300px;
-    box-sizing: content-box;
-    border: 10px solid $color_1;
-    border-radius: 40px;
-    border-bottom: 30px solid $color_1;
-  }
-  .external-link {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 9999;
-    text-decoration: none;
-    color: $color_2;
-    padding: 10px 20px;
-    background-color: $background-color_2;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    transition: all 0.3s ease;
-  }
-
-  .external-link:hover {
-    background-color: $background-color_2;
-  }
-
-  .external-link span {
-    margin-right: 8px;
-  }
-
-  .arrow {
-    width: 0;
-    height: 0;
-    border-top: 5px solid transparent;
-    border-bottom: 5px solid transparent;
-    border-left: 8px solid $color_2;
-    animation: arrowAnimate 1s infinite;
-  }
-}
 
 @keyframes arrowAnimate {
   0% {
@@ -428,9 +350,9 @@ select {
   }
 }
 
-
 @keyframes bounce {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
